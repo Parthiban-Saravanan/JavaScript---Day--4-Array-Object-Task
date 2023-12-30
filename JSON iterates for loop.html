@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Iteration Example</title>
+</head>
+<body>
+
+  <h1>Array Iteration Example</h1>
+
+  <button onclick="iterateArray()">Iterate Over Array</button>
+
+  <div id="output"></div>
+
+  <script>
+    function iterateArray() {
+      const myArray = ["apple", "banana", "cherry", "date", "elderberry"];
+      let output = "";
+
+      // Using for loop
+      output += "Using for loop:<br>";
+      for (let i = 0; i < myArray.length; i++) {
+        output += myArray[i] + "<br>";
+      }
+
+      // Using for...in loop
+      output += "<br>Using for...in loop:<br>";
+      for (let index in myArray) {
+        output += myArray[index] + "<br>";
+      }
+
+      // Using for...of loop
+      output += "<br>Using for...of loop:<br>";
+      for (let value of myArray) {
+        output += value + "<br>";
+      }
+
+      // Using forEach method
+      output += "<br>Using forEach method:<br>";
+      myArray.forEach(value => {
+        output += value + "<br>";
+      });
+
+      // Display the output on the webpage
+      document.getElementById("output").innerHTML = output;
+    }
+  </script>
+
+</body>
+</html>
+
+
+//output
+
+<!-- Using for loop:
+apple
+banana
+cherry
+date
+elderberry
+
+Using for...in loop:
+apple
+banana
+cherry
+date
+elderberry
+
+Using for...of loop:
+apple
+banana
+cherry
+date
+elderberry
+
+Using forEach method:
+apple
+banana
+cherry
+date
+elderberry -->
+

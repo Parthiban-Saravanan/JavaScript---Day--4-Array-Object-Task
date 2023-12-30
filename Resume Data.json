@@ -1,0 +1,58 @@
+{
+    "summary": "Motivated front-end developer with a strong foundation in HTML, CSS, and JavaScript. I am seeking to contribute my skills to develop engaging web applications. I am interested in software testing, UI/UX design, and other IT roles to broaden my experience and knowledge.",
+    "skills": [
+      "Communication Skills",
+      "Javascript",
+      "Css",
+      "Typescript",
+      "Html5",
+      "Node.Js",
+      "Apis"
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "institution": "Sree Sastha Institute of Engineering and Technology",
+        "location": "Chennai, Tamil Nadu",
+        "date": "04/2021",
+        "cgpa": 7.0
+      },
+      {
+        "degree": "Higher Secondary",
+        "institution": "Bharathidasan Matric Hr. Sec School",
+        "location": "Chennai, Tamil Nadu",
+        "date": "04/2017",
+        "percentage": 75
+      },
+      {
+        "degree": "Secondary School",
+        "institution": "National IT International Matric Hr. Sec School",
+        "location": "Chennai, Tamil Nadu",
+        "date": "04/2015",
+        "percentage": 70
+      }
+    ],
+    "experience": [
+      {
+        "company": "eNoah I Solution Private Ltd",
+        "position": "Process Associate",
+        "location": "Chennai, India",
+        "startDate": "08/2021",
+        "endDate": "Present",
+        "responsibilities": [
+          "Collaborated with a team in the management of digital assets, specifically in the entertainment sector.",
+          "Utilized tools such as Adobe Photoshop, InDesign, and Adobe Acrobat to enhance and edit content.",
+          "Contributed to the publishing of Disney books and e-books, ensuring high-quality and engaging materials.",
+          "Currently managing a separate project focused on National Geographic books."
+        ]
+      }
+    ],
+    "languages": ["English", "Tamil"],
+    "contactInformation": {
+      "name": "Parthiban S",
+      "location": "Chennai, Tamil Nadu",
+      "email": "parthibanaakash78@gmail.com",
+      "phone": "+919150853599"
+    }
+  }
+  
